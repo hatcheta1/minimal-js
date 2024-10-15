@@ -10,3 +10,13 @@
 </ul>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $("body").on("click", "#hello", function() {
+      console.log("clicked!");
+    });
+  });
+</script>
+
+<div id="hello">Click here</div>
